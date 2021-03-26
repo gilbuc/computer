@@ -1,2 +1,2 @@
 # computer
-simple bookmark startpage
+Simple StartPage for any browser in Star Treck-look.
