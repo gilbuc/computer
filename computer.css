@@ -6,24 +6,39 @@ body {
 .toolbox {
     display: inline-flex;
     flex-wrap: wrap;
-    background-color: #f0c413;
+    /* background-color: #f0c413;*/
+    background-color: #facc6a;
     padding: 0.5em;
     border-top-left-radius: 2em;
     margin: 0.5em;
 }
 
 .toolbox .title {
-    text-transform: uppercase;
-    border-right-style: solid;
-    border-right-color: black;
-    padding: 1em;
+	margin-right: 0.5em;
+        margin-left: 0.5em;
+        color: black;
+        text-align: right;
+        border-right-style: solid;
+        border-right-width: 4px;
+        border-right-color: black;
+        padding: 0.3em;
+        min-width: 10em;
+        font-size: larger;
+        text-transform: uppercase;
 }
 
+.toolblock {
+        background-color: black;
+        border: 1pt;
+        border-style: dashed;
+        min-width: 10em;
+
+    }
 .toolblock-title {
-    border-style: dashed;
-    text-align: right;
-    margin-left: 1em;
-    padding: 0.5em;
+     background-color: #949bf6;
+        color: black;
+        text-align: center;
+        padding: 0.3em;
 }
 
 a {
@@ -31,16 +46,19 @@ a {
     color: black;
 }
 
-.color3 {
-    background-color: #ece7bf;
+.color1 {
+  /*  background-color: #ece7bf;*/
+  	background-color: #ebe8bf;
 }
 
 .color2 {
-    background-color: #fb9e3e;
+    /* background-color: #fb9e3e;*/
+    background-color: #e9ca1a;
 }
 
-.color1 {
-    background-color: #96a0ff;
+.color3 {
+    /* background-color: #96a0ff;*/
+    background-color: #d4a174;
 }
 
 .color4 {
@@ -48,15 +66,13 @@ a {
 }
 
 li {
-    border-style: solid;
-    border-color: black;
-    padding: 0.5em;
-    min-width: 10em;
-    text-align: right;
+   border-style: solid;
+        border-width: 1px;
+        padding: 5px;
+        text-align: right;
 }
 
 ul {
     list-style-type: none;
     padding-inline-start: unset;
-    margin-left: 1em;
 }
