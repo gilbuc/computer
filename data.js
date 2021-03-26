@@ -1,21 +1,19 @@
 let data = [{
         title: "home",
         toolblocks: [{
-                title: "buchnas",
+                title: "Allgemein",
                 entries: [
-                    { url: "https://buch-nas:5001/", title: "Admin" },
-                    { url: "http://buch-nas:30180/", title: "Gitea" },
-                    { url: "http://buch-nas/photo", title: "Photo" },
-                    { url: "http://buch-nas/audio", title: "Audio" }
+                    { url: "https://orf.at", title: "ORF" },
+                    { url: "http://standard.at", title: "Der Standard" },
+                    { url: "http://www.familie-buchner.at", title: "Familienhomepage" }
                 ]
             },
             {
-                title: "world4you",
+                title: "Google",
+                url: "https://google.com",
                 entries: [
-                    { url: "https://buch-nas:5001/", title: "Admin" },
-                    { url: "http://buch-nas:30180/", title: "Gitea" },
-                    { url: "http://buch-nas/photo", title: "Photo" },
-                    { url: "http://buch-nas/audio", title: "Audio" }
+                    { url: "https://translate.google.com", title: "Translate" },
+                    { url: "https://calendar.google.com", title: "Google Calendar" }
                 ]
             }
         ]
